@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <title>Demo Widget</title>
+  <link rel="stylesheet" href="widget.css" />
+</head>
+<body>
+  <div class="widget" id="root">
+    <div class="widget__glow"></div>
+    <header class="widget__header">
+      <span class="widget__badge">DEMO</span>
+      <span class="widget__size" id="sizeLabel">2×2</span>
+    </header>
+    <main class="widget__body">
+      <p class="widget__label">Server tip</p>
+      <p class="widget__value" id="tip">Stay hydrated.</p>
+    </main>
+    <footer class="widget__footer">
+      <span id="clock">--:--</span>
+      <span class="widget__edit" id="editHint" hidden>Editing</span>
+    </footer>
+  </div>
+  <script src="widget.js"></script>
+</body>
+</html>
