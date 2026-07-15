@@ -2,8 +2,6 @@
 
 Demo FiveM resource for the GKSPHONE **Custom Widget API** (`AddCustomWidget`).
 
-Full GitBook-style docs (paste into docs.gkshop.org): [`docs/gitbook/custom-widget.md`](../docs/gitbook/custom-widget.md)
-
 Mirror of Custom App docs: [Custom App](https://docs.gkshop.org/gksphone-v2/custom-app)
 
 ## Install
